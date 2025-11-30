@@ -17,10 +17,7 @@ const Navbar = () => {
             </ul>
 
             <div className='flex text-center gap-10'>
-               <div className='max-w-md relative'>
-              <input type="text" placeholder='Search' className='w-full border border-green-800 px-5 rounded-3xl py-1' />
-              <i className='bi bi-search absolute translate-1.5 translate-x-[-175%] text-[14px]'></i>
-            </div>
+              
             <div className=' flex gap-1.5'>
               <div className='w-8 h-8 border border-green-900 rounded-[50%] flex items-center justify-center' >
                 <i class="bi bi-cart text-green-950 text-[10px]"></i>

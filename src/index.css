@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @import 'bootstrap-icons/font/bootstrap-icons.css';
+@keyframes slideUpDown {
+  0% { transform: translateY(20px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(20px); }
+}
+@keyframes slideRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.auto-scroll-x {
+  animation: slideRight 8s linear infinite;
+}
+.auto-scroll {
+  animation: slideUpDown 3s ease-in-out infinite;
+}
