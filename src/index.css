@@ -1,2 +1,8 @@
 @import "tailwindcss";
-@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@plugin "daisyui" {
+  themes: [ "light", "dark"];
+  styled: true;
+  base: true;
+}
